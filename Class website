@@ -1,0 +1,103 @@
+<!doctype html>
+<html> 
+ <head> 
+    <style>
+.hero{
+  height: 100vh;
+  width: 100%;
+  background: #FFFFFF url(https://i.pinimg.com/564x/fd/a1/33/fda133479e3360650e5da2a3c3f2ad90.jpg) right bottom/contain no-repeat content-box;
+  background-size: small;
+  background-position: right bottom;
+
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+  background: #7D92DE;
+}
+.logo{
+  color: #0A0101 ;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+ }
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px; 
+}
+nav ul li a{
+  color: #0A0101;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+nav ul li a :hover{
+  color: #7D92DE;
+  transition: .4s; 
+}
+.btn{
+  background-color: aquamarine;
+  color: #0A0101;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform .4s;
+  
+}
+.btn hover{
+  transform: scale(1.2);
+  
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+h1{
+  color: #0A0101;
+  margin: 20px 0px 20px;
+  font-size: 75px;
+  
+}
+h3{
+  color: #0A0101;
+  font-size: 25px;
+  margin-bottom: 50px;
+  
+}
+h4{
+  color: #7D92DE;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+    </style>
+  <title> Class Website</title> 
+ </head> 
+ <body> 
+  <div class="hero"> 
+   <nav> 
+    <h2 class="logo">Class<span>Website</span></h2> 
+    <ul> 
+     <li><a href="#">Home</a></li> 
+     <li><a href="#">Dashboard</a></li> 
+     <li><a href="#">My courses</a></li> 
+     <li><a href="#">Announcements</a></li>
+     <li><a href="#">Timetable</a></li>  
+    </ul> <a href="#" class="btn">LOGIN</a> 
+    </ul> <a href="#" class="btn">SIGN UP</a>
+   </nav> 
+   <div class="content"> 
+    <h4>GET STARTED ON YOUR ONLINE LESSONS</h4> 
+    <h1>Class Website</h1> 
+    <h3>Education is smart enough to change the human mind positively!</h3> 
+   </div> 
+  </div>
+  </body>
+  </html>
